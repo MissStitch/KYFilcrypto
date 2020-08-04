@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KYFilcrypto (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KYFilcrypto (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KYFilcrypto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KYFilcrypto: eeb963ee06f0e9fdabf6f01b44597025d7d1ad45
+
+PODFILE CHECKSUM: d5eed9fa4a8518fc05e1933eb90dcf6899a2da43
+
+COCOAPODS: 1.9.1

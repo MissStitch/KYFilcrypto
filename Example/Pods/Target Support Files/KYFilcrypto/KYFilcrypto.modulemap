@@ -1,0 +1,6 @@
+framework module KYFilcrypto {
+  umbrella header "KYFilcrypto-umbrella.h"
+
+  export *
+  module * { export * }
+}
