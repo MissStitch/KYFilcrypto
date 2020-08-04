@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'KYFilcrypto/Classes/**/*'
-  s.vendored_libraries = 'KYFilcrypto/Classes/Lib/*.{a}'
+  s.vendored_libraries = 'KYFilcrypto/Classes/**/*.{a}'
 #  s.vendored_framework  = 'KYFilcrypto/Classes/Framework/libKYFilcrypto.a'
   s.static_framework = true
   # s.resource_bundles = {
