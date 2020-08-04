@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KYFilcrypto_Example' do
+  pod 'KYFilcrypto', :path => '../'
+
+  target 'KYFilcrypto_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
