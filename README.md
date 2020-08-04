@@ -22,7 +22,7 @@ pod 'KYFilcrypto'
 
 ## Author
 
-569931483@qq.com, 569931483@qq.com
+stitch, 569931483@qq.com
 
 ## License
 
